@@ -1,0 +1,94 @@
+
+
+// for
+
+var Resume = [{
+    Name:'Rajesh M',
+    Age : '29',
+    Qualification : 'M-Tech',
+    Designation : 'HOD',
+    Department:'Mechanical Engineering'
+}]
+
+for(let i=0; i<Resume.length; i++) {
+console.log(Resume[i]);
+}
+
+Output:
+{ Name: 'Rajesh M',
+  Age: '29',
+  Qualification: 'M-Tech',
+  Designation: 'HOD',
+  Department: 'Mechanical Engineering' }
+
+-----------------------------------------------------------------
+
+// for  in
+
+var Resume = {
+    Name:'Rajesh M',
+    Age : '29',
+    Qualification : 'M-Tech',
+    Designation : 'HOD',
+    Department:'Mechanical Engineering'
+}
+
+
+for(let x in Resume) {
+console.log(Resume[x]);
+}
+
+output:
+
+Rajesh M
+29
+M-Tech
+HOD
+Mechanical Engineering
+
+-----------------------------------------------------------------
+
+// for of
+
+var Resume = [{
+    Name:'Rajesh M',
+    Age : '29',
+    Qualification : 'M-Tech',
+    Designation : 'HOD',
+    Department:'Mechanical Engineering'
+}]
+
+for(let x of Resume) {
+console.log(x);
+}
+
+Output:
+{ Name: 'Rajesh M',
+  Age: '29',
+  Qualification: 'M-Tech',
+  Designation: 'HOD',
+  Department: 'Mechanical Engineering' }
+
+-----------------------------------------------------------------
+
+// forEach 
+
+var Resume = [{
+    Name:'Rajesh M',
+    Age : '29',
+    Qualification : 'M-Tech',
+    Designation : 'HOD',
+    Department:'Mechanical Engineering'
+}]
+
+Resume.forEach((key)=>{
+ console.log(key)
+ }) 
+
+
+Output:
+{ Name: 'Rajesh M',
+  Age: '29',
+  Qualification: 'M-Tech',
+  Designation: 'HOD',
+  Department: 'Mechanical Engineering' }
